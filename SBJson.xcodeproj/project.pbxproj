@@ -819,6 +819,11 @@
 		BCC2628813920FC7003D9994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
 				DSTROOT = /tmp/sbjson_ios.dst;
 				GCC_PREFIX_HEADER = "sbjson-ios/sbjson-ios-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -838,6 +843,11 @@
 		BCC2628913920FC7003D9994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
 				DSTROOT = /tmp/sbjson_ios.dst;
 				GCC_PREFIX_HEADER = "sbjson-ios/sbjson-ios-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(TARGET_BUILD_DIR)/include/";
